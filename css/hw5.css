@@ -52,7 +52,6 @@
     width: 100%;
     max-width: 175px;
     text-align: center;
-    padding: 20px 0;
 }
 
 .hero__container--link:hover {
@@ -63,6 +62,13 @@
     font: 400 18px "Lato", sans-serif;
     letter-spacing: 0.45px;
     text-decoration: none;
+    padding: 20px 32px;
+    display: inline-block;
+}
+.hero__container-link{
+    margin:0 auto;
+    text-align: center;
+
 }
 .hero__container-link-arrow {
     background: url("../img/hero__arrow.png") no-repeat center/cover;
@@ -71,28 +77,29 @@
     margin: 0 auto 91px;
     width: 20px;
     height: 12px;
+    display: inline-block;
 }
 .simple__container {
     background-color: #f6f9f9;
     text-align: center;
+    padding: 81px 0 110px;
 }
 .simple__container--title {
     color: #2d3950;
     font: 400 40px "Lato", sans-serif;
     letter-spacing: 1px;
-    margin: 81px 0 31px;
+    margin: 0 0 31px;
 }
 .simple__container--title-text {
     max-width: 1101px;
     color: #999999;
     font: 400 20px/32px "Lato", sans-serif;
     letter-spacing: 0.5px;
-    margin: 0 auto 110px;
 }
 .menu__container {
     background-color: #ffffff;
     text-align: center;
-    padding: 65px 0 0 ;
+    padding: 65px 0 65px ;
 }
 .menu__container--list {
     margin: 0 auto;
@@ -114,7 +121,7 @@
     color: #999999;
     font: 400 15px/22px "Lato", sans-serif;
     letter-spacing: 0.38px;
-    margin: 22px 0 64px 0;
+    margin: 22px 0 0 0;
 }
 .menu__container--img {
     width: 100px;
@@ -134,7 +141,7 @@
 .showcase__container {
     background-color: #f6f9f9;
     text-align: center;
-    padding: 81px 0 0;
+    padding: 81px 0 116px;
 }
 .showcase__container--title {
     color: #2d3950;
@@ -149,7 +156,6 @@
     margin: 0 0 80px 0;
 }
 .showcase__container--list {
-    margin: 0 auto 116px;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
